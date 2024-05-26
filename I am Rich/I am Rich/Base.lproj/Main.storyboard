@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="I_am_Rich" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="ZBJ-B7-19p">
+                                <rect key="frame" x="0.0" y="48" width="414" height="814"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="g6O-bx-Bn0">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="406.5"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I Am Rich" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SP5-m8-WjL">
+                                                <rect key="frame" x="0.0" y="0.0" width="414" height="406.5"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="40"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="SP5-m8-WjL" secondAttribute="trailing" id="SeM-mv-TSP"/>
+                                            <constraint firstItem="SP5-m8-WjL" firstAttribute="top" secondItem="g6O-bx-Bn0" secondAttribute="top" id="j54-7u-r3c"/>
+                                            <constraint firstItem="SP5-m8-WjL" firstAttribute="leading" secondItem="g6O-bx-Bn0" secondAttribute="leading" id="mYU-bb-kpI"/>
+                                            <constraint firstAttribute="bottom" secondItem="SP5-m8-WjL" secondAttribute="bottom" id="whK-2N-0FG"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eEY-1D-xxQ">
+                                        <rect key="frame" x="0.0" y="407.5" width="414" height="406.5"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="diamond" translatesAutoresizingMaskIntoConstraints="NO" id="ydC-wF-Nyv">
+                                                <rect key="frame" x="50" y="0.0" width="314" height="406.5"/>
+                                            </imageView>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="ydC-wF-Nyv" secondAttribute="trailing" constant="50" id="73h-cj-AbG"/>
+                                            <constraint firstAttribute="bottom" secondItem="ydC-wF-Nyv" secondAttribute="bottom" id="T87-sI-oCT"/>
+                                            <constraint firstItem="ydC-wF-Nyv" firstAttribute="leading" secondItem="eEY-1D-xxQ" secondAttribute="leading" constant="50" id="TSI-yY-82U"/>
+                                            <constraint firstItem="ydC-wF-Nyv" firstAttribute="top" secondItem="eEY-1D-xxQ" secondAttribute="top" id="Z5C-XY-dZs"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="0.14117647058823529" green="0.28627450980392155" blue="0.36862745098039218" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="ZBJ-B7-19p" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="67T-Lm-GCv"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="ZBJ-B7-19p" secondAttribute="bottom" id="Cat-4D-PRp"/>
+                            <constraint firstItem="ZBJ-B7-19p" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="DgI-70-ERQ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ZBJ-B7-19p" secondAttribute="trailing" id="E8b-2B-beb"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="47.826086956521742" y="3.3482142857142856"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="diamond" width="343" height="251"/>
+    </resources>
+</document>
