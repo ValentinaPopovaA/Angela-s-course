@@ -24,10 +24,9 @@ class ViewController: UIViewController {
 
     @IBAction func choiceMade(_ sender: UIButton) {
         
-        let userAnswer = sender.currentTitle!
-        storyBrain.nextStory(userChoice: userAnswer)
-
-        Timer.scheduledTimer(timeInterval: 0.2, target: self, selector: #selector(updateUI), userInfo: nil, repeats: false)
+        storyBrain.nextStory(userChoice: sender.currentTitle!)
+        
+        updateUI()
     }
     
     @objc func updateUI() {
@@ -35,6 +34,5 @@ class ViewController: UIViewController {
         choice1Button.setTitle(storyBrain.getChoice1Text(), for: .normal)
         choice2Button.setTitle(storyBrain.getChoice1Text(), for: .normal)
     }
-    
 }
 
