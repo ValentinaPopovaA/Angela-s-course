@@ -1,1 +1,107 @@
+# Swift specific
+*.xcworkspace
+*.xcodeproj
+*.xcuserdata
+*.xcuserstate
+*.xccheckout
+*.moved-aside
+*.xcscmblueprint
+*~.nib
+*.hmap
+*.ipa
+*.dSYM
+*.swiftpm
+.build/
+Package.resolved
+.swift-version
+*.h/
+*.hmap/
+*.ll
+*.plist
+
+# User-specific
+*.swp
+*.swo
+*.swm
+*~.nib
+*.DS_Store
+*.swp
+*.swo
+*.swm
+*~.nib
+*.DS_Store
+
+# Mac OS specific
 .DS_Store
+.AppleDouble
+.LSOverride
+*.crash
+*.pdf
+*.tmp
+*.log
+
+# Xcode specific
+DerivedData/
+.idea/
+*.xcodeproj
+*.xcworkspace
+*.xcuserdata/
+*.xccheckout
+*.moved-aside
+*.xcscmblueprint
+*.hmap
+
+# Swift Package Manager
+.build/
+.swiftpm/xcode/package.xcworkspace/
+Package.pins
+Package.resolved
+.swift-version
+
+# CocoaPods
+Pods/
+Podfile.lock
+
+# Carthage
+Carthage/Build/
+Carthage/Checkouts/
+Carthage/Packages/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+
+# Code Coverage
+*.profdata
+*.gcno
+*.gcda
+
+# Archives
+*.xcarchive
+*.ipa
+
+# Build products
+build/
+DerivedData/
+Build/
+*.xcodeproj/project.xcworkspace/xcuserdata
+
+# Symbolicatecrash
+*.dSYM
+
+# IDE files
+*.swp
+*.swo
+*.swm
+
+# SwiftUI previews
+*.preview-thumbs
+*.preview-thumbs/Preview
+
+# Playground
+timeline.xctimeline
+playground.xcworkspace
+
+# SPM
+Packages
